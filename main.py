@@ -10,6 +10,9 @@ from push import push
 from log_utils import setup_logging
 from config import data, headers, cookies, READ_NUM, PUSH_METHOD, book, chapter
 
+print(headers, cookies, READ_NUM, PUSH_METHOD, book, chapter)
+logging.info(headers)
+logging.info(cookies)
 
 # 加密盐及其它默认值
 KEY = "3c5c8717f3daf09iop3423zafeqoi"
